@@ -4,7 +4,7 @@
   "description": "a tutorial app",
   "main": "index.js",
   "scripts": {
-    "dist": "webpack --mode development"
+    "dist": "webpack --mode production"
   },
   "author": "Jedidiah Jeyaraj",
   "license": "ISC",
@@ -19,6 +19,7 @@
     "webpack-cli": "^3.0.2"
   },
   "dependencies": {
+    "lodash": "^4.17.10",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "youtube-api-search": "0.0.5"
